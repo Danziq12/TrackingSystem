@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fc;
+    padding: 30px;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1.main-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #5a3eff;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.save-btn {
+    display: inline-block;
+    margin-top: 8px;
+    background-color: #5a3eff;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.save-btn:hover {
+    background-color: #472ee0;
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #444;
+    border-left: 4px solid #5a3eff;
+    padding-left: 8px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.approve-btn, .reject-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.approve-btn {
+    background-color: #28a745;
+    color: white;
+    margin-right: 10px;
+}
+
+.approve-btn:hover {
+    background-color: #218838;
+}
+
+.reject-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.reject-btn:hover {
+    background-color: #c82333;
+}
+
+a {
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
